@@ -6,7 +6,7 @@
     image_id: ami-0220d79f3f480ecf5
     domain_name: jagandevops.online # replace with your domain
     action: create
-   tasks:
+  tasks:
   - name: create ec2 instances
     amazon.aws.ec2_instance:
       instance_type: t3.micro
